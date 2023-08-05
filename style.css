@@ -1,0 +1,101 @@
+*x {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(222, 200, 244);
+}
+
+.main {
+  max-width: 60%;
+  margin: 5vh 40vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 95vh;
+  border: 1px solid blueviolet;
+}
+
+.containerOne {
+  background-color: blueviolet;
+}
+
+.containerTwo {
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  margin-top: 5vh;
+  text-align: center;
+}
+
+.text {
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+.button {
+  margin-top: 5vh;
+  margin-left: 23vh;
+  width: 20vh;
+  height: 5vh;
+  border-radius: 2vh;
+  border: none;
+}
+
+.form__submit {
+  background-color: blueviolet;
+  width: 40vh;
+  height: 5vh;
+  border-radius: 2vh;
+  border: none;
+  margin-left: 5vh;
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+select {
+  margin-top: 6px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around
+}
+
+#Age {
+  width: 10vh;
+}
+
+span {
+  margin-top: 0.8vh;
+}
+
+.label {
+  margin-top: 0.9vh;
+}
+
+.error-message {
+  color: red;
+  font-size: 2vh;
+}
+
+.errorsInfo {
+  color: red;
+}
