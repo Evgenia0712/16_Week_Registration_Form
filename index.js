@@ -92,6 +92,7 @@ form.addEventListener('submit', function (evt) {
   document.querySelectorAll('.error-message').textContent = ''; // очищает сообщения об ошибках 
   document.querySelector('#gender-error').textContent = '';
   document.querySelector('#age-error').textContent = '';
+  document.querySelector('.errorsInfo').textContent = '';
   return true;
 })
 
